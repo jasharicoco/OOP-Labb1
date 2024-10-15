@@ -5,9 +5,9 @@ namespace OOP_Labb1
     internal class Circle
     {
         public int Radius { get; set; }
-        public Circle(int radie)
+        public Circle(int radius)
         {
-            Radius = radie;
+            Radius = radius;
             float pi = 3.141f;
         }
 
