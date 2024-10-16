@@ -6,7 +6,7 @@
         {
             //Skapa cirklar med olika radie
             Circle circle1 = new Circle(5);
-            Circle circle2 = new Circle(10);
+            Circle circle2 = new Circle(6);
 
             circle1.GetArea();
             circle1.GetVolume();
