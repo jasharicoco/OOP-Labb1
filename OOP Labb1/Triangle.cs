@@ -11,9 +11,10 @@
             Height = height;
         }
 
-        public void GetArea()
+        public float GetArea()
         {
-            Console.WriteLine($"Arean av en triangel med basen {Base} cm och höjden {Height} cm är: {(Base * Height) / 2}");
+            return ((Base * Height) / 2);
         }
+
     }
 }

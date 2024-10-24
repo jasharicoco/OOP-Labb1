@@ -8,19 +8,19 @@
             Circle circle1 = new Circle(5);
             Circle circle2 = new Circle(6);
 
-            circle1.GetArea();
-            circle1.GetVolume();
+            Console.WriteLine($"Arean av en cirkel med radie {circle1._Radius} är: {circle1.GetArea()} cm²");
+            Console.WriteLine($"Arean av en cirkel med radie {circle1._Radius} är: {circle1.GetVolume()} cm³");
             Console.WriteLine("");
-            circle2.GetArea();
-            circle2.GetVolume();
+            Console.WriteLine($"Arean av en cirkel med radie {circle2._Radius} är: {circle2.GetArea()} cm²");
+            Console.WriteLine($"Arean av en cirkel med radie {circle2._Radius} är: {circle2.GetVolume()} cm³");
 
             //Skapa trianglar med olika baser och höjder
             Triangle triangle1 = new Triangle(2, 5);
             Triangle triangle2 = new Triangle(4, 10);
 
             Console.WriteLine("");
-            triangle1.GetArea();
-            triangle2.GetArea();
+            Console.WriteLine($"Arean av en triangel med basen {triangle1.Base} cm och höjden {triangle1.Height} cm är: {triangle1.GetArea()} cm²");
+            Console.WriteLine($"Arean av en triangel med basen {triangle2.Base} cm och höjden {triangle2.Height} cm är: {triangle2.GetArea()} cm²");
         }
     }
 }
